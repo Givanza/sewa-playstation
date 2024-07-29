@@ -1,0 +1,26 @@
+CRITICAL - 2024-07-25 16:31:02 --> ParseError: syntax error, unexpected string content "vendor/bootstrap"
+[Method: GET, Route: home]
+in APPPATH/Views/admin/index.php on line 195.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AdminController.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/vector/Downloads/coba1 (1)/coba1/public/index.php')
+CRITICAL - 2024-07-25 16:31:26 --> ParseError: syntax error, unexpected string content "vendor/bootstrap"
+[Method: GET, Route: home]
+in APPPATH/Views/admin/index.php on line 195.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/AdminController.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/vector/Downloads/coba1 (1)/coba1/public/index.php')
